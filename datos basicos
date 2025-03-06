@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+
+  //int numero = 8;
+
+  float flotante = 11.5;
+
+  double dato_mayor = 20.444;
+
+  char letra = '?';
+  
+ //cout <<"el valor total del numero es:" <<numero <<endl;
+  cout <<flotante<<endl;
+  cout <<dato_mayor<<endl;
+  cout <<letra<<endl;
+  return 0;
+}
