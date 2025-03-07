@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main () {
+
+  int numero ; //esto tan se podra hacer con cualtipo de dato ya sea int, float, double, char, string, bool
+  
+ cout<< "ingrese un numero para la variable : ";
+
+  cin>>numero; //gurdamos el dato en la variable numero
+
+  cout << "el numero que ingreso es : " <<numero <<endl;
+  return 0;
+}
+
+/*
+esto se usa para hacer un comentario que requiera varias lineas
+*/
