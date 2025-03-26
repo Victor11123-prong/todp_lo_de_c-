@@ -4,11 +4,11 @@ using namespace std;
 
 int main () {
 
-  int numero ; //esto tan se podra hacer con cualtipo de dato ya sea int, float, double, char, string, bool
+  int numero ; //esto tan se podra hacer con cualquier tipo de dato ya sea int, float, double, char, string, bool
   
  cout<< "ingrese un numero para la variable : ";
 
-  cin>>numero; //gurdamos el dato en la variable numero
+  cin>>numero; //guardamos el dato en la variable numero
 
   cout << "el numero que ingreso es : " <<numero <<endl;
   return 0;
