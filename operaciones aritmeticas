@@ -1,0 +1,33 @@
+#include<iostream>
+
+using namespace std;
+
+int main() {
+
+int num1, num2, suma=0, resta=0, multiplicacion=0, division=0;
+
+  cout<<"digite un numero para la variable num1:"<<endl;
+  cin>>num1;
+
+  cout<<"digite un numero para la variable num2:"; cin>>num2; //el cin tambien se puede poner en una sola linea separandolo con un ";"
+  
+
+  suma = num1 + num2;
+
+  resta = num1 - num2;
+
+  multiplicacion = num1 * num2;
+
+  division = num1 / num2;
+
+  cout<<"el resultado de la suma es:"<<suma<<endl;
+
+  cout<<"el resultado de la resta es:"<<resta<<endl;
+
+  cout<<"el resultado de la multiplicacion es:"<<multiplicacion<<endl;
+
+  cout<<"el resultado de la division es:"<<division<<endl;
+
+  return 0;
+
+    }
