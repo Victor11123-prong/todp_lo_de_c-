@@ -1,0 +1,26 @@
+#include<iostream>
+
+using namespace std;
+
+int main () {
+
+  int valorProducto, porcentajeIva, valorIva, valorTotal;
+  
+
+  cout<<"ingrese el valor del producto:";
+
+  cin>>valorProducto;
+
+  cout<<"ingrese el porcentaje del iva:";
+
+  cin>>porcentajeIva;
+
+  valorIva = (valorProducto * porcentajeIva)/100;
+
+  valorTotal = valorProducto + valorIva;
+
+  cout<<"el valor del total del producto es:"<<valorTotal<<endl;
+
+
+  return 0;
+}
