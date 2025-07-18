@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+
+float producto;
+  cout<<"ingrese el valor del producto: "<<endl; cin>>producto;
+
+  float iva= producto*0.19;
+  float valor_total= producto+iva;
+
+  cout<<"el valor total del producto aplicandole el iva es: "<<valor_total<<endl;
+
+
+
+
+
+
+  return 0;
+}
